@@ -651,7 +651,7 @@ span.position {
 }
 
 #event-card .card-body {
-    height: 10em;
+    height: 200px;
     text-align: center;
     background-color: var(--on-surface-color);
 }
@@ -670,6 +670,11 @@ span.position {
     font-size: 1.2em;
     text-transform: uppercase;
     margin-bottom: 0.5em;
+}
+#event-card img{
+    height: 350px;
+    width: 350px;
+    background-size: cover;
 }
 
 #event-card .card-info {
